@@ -25,7 +25,7 @@ export class PhotographerTags extends HTMLElement {
     render() {
         this.tags.forEach(tag => {
             this.querySelector("div").insertAdjacentHTML('beforeEnd',
-            `<a class="tag" href="/tag-` + tag + `">
+            `<a class="tag" aria-label="Retour aux tags" href="/tag-` + tag + `">
                 <span class="sr-only">`
                     + tag +
                 `</span>

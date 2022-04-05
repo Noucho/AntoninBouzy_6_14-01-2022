@@ -20,7 +20,7 @@ export class ContactModal extends HTMLElement {
                     <h1 class=" text-4xl flex-grow">
                         Contactez moi
                     </h1>
-                    <button class="closeModal text-white text-4xl">
+                    <button class="closeModal text-white text-4xl" aria-label="Fermeture de la modale">
                         x
                     </button>
                 </div>

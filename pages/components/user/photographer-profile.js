@@ -29,7 +29,7 @@ export class PhotographerProfile extends HTMLElement {
                     `</p>
                     <photographer-tags id="` + this.id +`"><photographers-tags>
                 </div>
-                <div class="mr-6 lg:relative lg:left-0 lg:ml-0 left-1/2 -ml-24 fixed bottom-0">
+                <div class="mr-6 lg:relative lg:left-0 lg:ml-0 left-1/2 -ml-24 fixed bottom-0" aria-label="Bouton de contact">
                     <a class="contactModal button my-4 mx-auto"
                         title="Contactez-moi">
                         Contactez-moi

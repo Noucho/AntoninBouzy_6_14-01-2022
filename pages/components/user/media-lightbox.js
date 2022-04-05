@@ -19,7 +19,7 @@ export class MediaLightbox extends HTMLElement {
                 aria-label="Vue de l'image en grand">
 
                 <div class="flex-grow flex flex-row-reverse">
-                    <button class="previousMediaLightbox w-14 text-5xl text-bold text-primary" title="Image précédente">
+                    <button class="previousMediaLightbox w-14 text-5xl text-bold text-primary" aria-label="Revenir à l'image précédente" title="Image précédente">
                         <
                     </button>
                 </div>
@@ -30,10 +30,10 @@ export class MediaLightbox extends HTMLElement {
                 </div>
 
                 <div class="flex-grow flex flex-row">
-                    <button class="closeLightbox absolute w-14 text-bold text-5xl text-primary" title="Fermer la vue">
+                    <button class="closeLightbox absolute w-14 text-bold text-5xl text-primary" aria-label="Fermer la vue aggrandie" title="Fermer la vue">
                         x
                     </button>
-                    <button class="nextMediaLightbox w-14 text-5xl text-bold text-primary" title="Image suivante">
+                    <button class="nextMediaLightbox w-14 text-5xl text-bold text-primary" aria-label="Aller à l'image suivante" title="Image suivante">
                         >
                     </button>
                 </div>

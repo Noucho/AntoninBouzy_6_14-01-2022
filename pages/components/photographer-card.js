@@ -15,7 +15,7 @@ export class PhotographerCard extends HTMLElement {
     connectedCallback () {
         const template = document.createElement('template');
         template.innerHTML = `
-            <a href="/user` + this.id + `"
+            <a href="/user` + this.id + `" aria-label="Accès à la page du photographe"
               class="block mx-auto max-w-md z-10"
               title="` + this.photographerData.name + `">
                 <img class="h-48 w-48 mx-auto rounded-full object-cover"
